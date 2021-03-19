@@ -30,7 +30,7 @@ public class HomeControllerTest {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())                                 //Expects HTTP 200
                 .andExpect(view().name("home"))             //Expects home view
-                .andExpect(content().string(                               //Expects Welcome to...
+                .andExpect(content().string(                               //Expects Welcome to..
                         containsString("Welcome to...")));
     }
 
