@@ -24,7 +24,7 @@ public class DesignTacoController {
     @ModelAttribute
     public void addIngredientsToModel(Model model) {
         List<Ingredient> ingredients = Arrays.asList(
-                new Ingredient("FLTO", "Flout Tortilla", Ingredient.Type.WRAP),
+                new Ingredient("FLTO", "Flour Tortilla", Ingredient.Type.WRAP),
                 new Ingredient("COTO", "Corn Tortilla", Ingredient.Type.WRAP),
                 new Ingredient("GRBF", "Ground Beef", Ingredient.Type.PROTEIN),
                 new Ingredient("CARN", "Carnitas", Ingredient.Type.PROTEIN),
